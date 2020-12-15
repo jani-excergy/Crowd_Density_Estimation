@@ -117,9 +117,19 @@ Conclusion : It justifies our argument that,instead of regressing a large count 
 
 ## Requirements 
 
+```bash
 pip install opencv-python
+```
+
+```bash
 pip install termcolor
+```
+
+```bash
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+```
+
+
 
 ## Folder structure
 
