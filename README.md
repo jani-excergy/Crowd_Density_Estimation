@@ -133,7 +133,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 ## Folder structure
 
-<img src="images/Capture7.PNG">
+<img src="images/Capture10.PNG">
 
 ## Flow 
 
