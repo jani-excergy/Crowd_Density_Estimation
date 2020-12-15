@@ -145,9 +145,27 @@ For pretrained wieghts follow the link(https://drive.google.com/file/d/1MIOoPWso
 
 Before run the prototype install required lib
 
-python prototype.py --video [video path] --cap=0 --SDCNet [pretrained weights path]
+Step 1 : python prototype.py --video [video path] --cap=0 --SDCNet [pretrained weights path]
 
 ex: python prototype.py --video \Users\vksva\Desktop\CDE\123.mp4 --cap=0 --SDCNet \Users\vksva\Desktop\CDE\Crowd-DCNet-master\model\SHA\best_epoch.pth
+
+Step2 :After running command wait for some time pretrained weights will be added. 
+
+Step3 : After the weights added one frame window will open on the desktop.
+
+Step4 : After frame window opend you need to select the Region Of Interest(RoI) using + mark.
+
+Step5 : After selecting the region using + mark you need to press the SPACE or ENTER to confiorm the selected region.
+
+Step6 : After selcting region you need to press ESC button to find count( this process take some time to calculate count wait for it ) 
+
+Step7 : If you want to unselect the selected region then press c button 
+
+Step8 : To close the opened frame window press q button
+
+Note : I am using using CPU for tensor processing If you have GPU then change device in prototype.py
+
+
 
 
 
