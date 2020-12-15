@@ -145,7 +145,7 @@ For pretrained wieghts follow the link(https://drive.google.com/file/d/1MIOoPWso
 
 Before run the prototype install required lib
 
-python prototype.py --video <video path> --cap=0 --SDCNet <pretrained weights path>
+python prototype.py --video [video path] --cap=0 --SDCNet [pretrained weights path]
 
 ex: python prototype.py --video \Users\vksva\Desktop\CDE\123.mp4 --cap=0 --SDCNet \Users\vksva\Desktop\CDE\Crowd-DCNet-master\model\SHA\best_epoch.pth
 
