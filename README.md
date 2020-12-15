@@ -163,7 +163,7 @@ Step7 : If you want to unselect the selected region then press c button
 
 Step8 : To close the opened frame window press q button
 
-Note : I am using using CPU for tensor processing If you have GPU then change device in prototype.py
+Note : I am using using CPU for tensor processing If you have GPU then change device in prototype.py(48 line)(remove map_location=torch.device('cpu'))
 
 
 
